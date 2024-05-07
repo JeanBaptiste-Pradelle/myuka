@@ -26,12 +26,12 @@ function Scan({ Sproduit }) {
         type="text"
         placeholder=""
         aria-label="Code barre article"
-        className="bg-secondary mx-auto mt-3 mb-1"
+        className=" mx-auto mt-3 mb-1 w-50 border-2 border-success "
         value={codeBarre}
         onChange={(e) => setCodeBarre(e.target.value)}
       ></Form.Control>
       <button
-        className="scanner bg-success mt-1 mb-5 p-2 mx-auto"
+        className="scanner bg-success bg-opacity-75 mt-2 mb-4 p-2 mx-auto fs-3 fw-bold"
         onClick={CallAPI}
       >
         Scanner
